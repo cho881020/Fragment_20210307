@@ -5,8 +5,6 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="20dp"
     tools:context=".MainActivity">
 
     <fragment
@@ -20,5 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         class="com.tjoeun.fragment_20210307.fragments.SecondFragment" />
+
+    <fragment
+        android:id="@+id/firstFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        class="com.tjoeun.fragment_20210307.fragments.FirstFragment" />
 
 </LinearLayout>
